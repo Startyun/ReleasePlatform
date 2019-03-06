@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/pic_release"
+        android:title="@string/Release" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@mipmap/pic_search"
+        android:title="@string/Search" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@mipmap/pic_menu"
+        android:title="@string/Crop" />
+    <item
+
+        android:id="@+id/navigation_llllllll"
+        android:icon="@mipmap/pic_mine"
+        android:title="@string/My" />
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="#20B2AA"
+        >
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="45dp"
+            android:background="#fff">
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:id="@+id/edittext"
+                android:background="@null"
+                android:hint="搜索您已发布的农产品"
+                >
+            </EditText>
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/ima_sousuo"
+                android:layout_margin="5dp"
+                android:background="@drawable/pic_sousuo"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:id="@+id/list0">
+    </ListView>
+
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="8dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#DBDBDB"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="以下为您推荐内容"
+        android:gravity="center"/>
+
+
+    <ListView
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/list1">
+    </ListView>
+
+
+
+</LinearLayout>

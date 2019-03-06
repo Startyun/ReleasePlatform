@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentOne.Fragment_One"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_90"
+        android:background="#20B2AA"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="@dimen/dp_130"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_120"
+            android:layout_marginTop="40dp"
+            android:text="农产品发布"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+         <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/dp_45"
+            android:layout_height="@dimen/dp_45"
+            android:layout_marginTop="8dp"
+            android:background="@mipmap/pic_user1"
+            android:layout_gravity="center"
+            android:id="@+id/take_photo"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_2"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/dp_15"
+            android:background="@null"
+            android:id="@+id/crop_username"
+            android:hint="请输入用户名"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#20B2AA"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_90"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/pic_add"
+            android:layout_marginLeft="@dimen/dp_32"
+            android:layout_marginRight="@dimen/dp_32"
+            android:scaleType="fitXY"
+            android:id="@+id/ima_add1"
+           />
+
+
+
+        <ImageView
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+            android:background="@mipmap/pic_add"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/ima_add2"
+            android:scaleType="fitXY"
+            />
+
+
+         <ImageView
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_80"
+             android:background="@mipmap/pic_add"
+             android:layout_marginRight="32dp"
+             android:layout_marginLeft="32dp"
+             android:layout_gravity="center_vertical"
+             android:scaleType="fitXY"
+             android:id="@+id/ima_add3"
+             />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#20B2AA"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="请输入农产品名称："
+        android:id="@+id/crop_name"
+        android:background="@null"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#20B2AA"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:textSize="15dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#000"
+            android:text="价格"/>
+
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginLeft="170dp"
+            android:id="@+id/crop_price"
+            android:textSize="15dp"
+            android:hint="如：300（元）" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:text="库存"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:textSize="15dp"
+            android:id="@+id/crop_kucun"
+            android:hint="如：30（件）"
+            android:layout_marginLeft="170dp"
+             />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_58"
+            android:textSize="15dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#000"
+            android:text="运费"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:textSize="15dp"
+            android:id="@+id/crop_yunfei"
+            android:layout_marginLeft="170dp"
+            android:hint="如：20（元）" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:text="发货地"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginLeft="155dp"
+            android:id="@+id/crop_fahuodi"
+            android:hint="如:广西南宁"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#20B2AA"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:id="@+id/crop_describe"
+        android:background="@null"
+        android:hint="农产品描述："
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#20B2AA"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#20B2AA"
+            android:text="确定发布"
+            android:id="@+id/btn_release"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

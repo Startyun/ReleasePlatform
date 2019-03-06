@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">农产品快速发布平台</string>
+    <string name="Release">发布</string>
+    <string name="Search">搜索</string>
+    <string name="Crop">管理</string>
+    <string name="My">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

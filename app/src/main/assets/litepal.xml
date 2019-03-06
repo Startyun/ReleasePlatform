@@ -1,0 +1,7 @@
+<litepal>
+<dbname value="ReleasePlatform" />
+<version value="1" />
+<list>
+    <mapping class="android.com.releaseplatform.db.PointPeople"/>
+</list>
+</litepal>
